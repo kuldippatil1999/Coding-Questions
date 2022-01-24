@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>in console</h3>
+    <script>
+         function findnum2LargestElem(arr) {
+    let num1 = -1, num2 = -1;
+    for (let i = 0; i <= array.length - 1; i++)
+     {
+        if (array[i] > num1) 
+        {
+            num2 = num1;
+             num1 = array[i];
+        }
+        else if (array[i] > num2 && array[i] != num1) 
+        {
+            return  num2 = array[i];
+        }
+    }
+    console.log(num2);
+}
+let array = [10, 42, 2, 10, 34, 2];
+console.log(findnum2LargestElem(array));
+    </script>
+</body>
+</html>
